@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div.infrastructure{
+position: -webkit-sticky;
+position: sticky;
+top: 0;
+background-color: yellow;
+padding: 10px;
+font-size: 20px;
+text-align: center;
+}
+.head>h1,p{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    margin-left: 100px;
+    
+}
+.head>p{
+    font-size: x-large;
+}
+.whole>ul{
+    display:inline-flex;
+    margin-left: 300px;
+    color:rgb(220, 31, 31);
+    font: bold;
+}
+.whole button{
+    width: 200px;
+    color: rgb(12, 12, 146);
+    background-color: aliceblue;
+    height: 40px;
+    margin-left: -40px;
+    border-radius: 5px ;
+}
+.whole{
+    margin-left: 140px;
+}
+.whole button{
+    font-weight: bold;
+}
+ ul li{
+    font-weight: bold; 
+    display: inline-block;
+    
+}
+
+.navbar button:hover {
+    background-color: #eb8109; 
+    color: aliceblue;
+}
+.classroom>.box{
+    margin-top : 30px;
+    width: 355px;
+    height:300px;
+    border: 2px solid rgb(246, 244, 244);
+    background-color: whitesmoke;
+    margin-left: 40px;
+}
+.classroom{
+    display: flex;
+}
+.classroom>.box>h3{
+    margin-left: 30px;
+}
+.gdroom>.box{
+    margin-top : 30px;
+    width: 355px;
+    height:300px;
+    border: 2px solid rgb(246, 244, 244);
+    background-color: whitesmoke;
+    margin-left: 40px;
+}
+.gdroom{
+    display: flex;
+}
+.gdroom>.box>h3{
+    margin-left: 30px;
+}
+.simulator>.box{
+    margin-top : 30px;
+    width: 355px;
+    height:300px;
+    border: 2px solid rgb(246, 244, 244);
+    background-color: whitesmoke;
+    margin-left: 40px;
+}
+.simulator{
+    display: flex;
+}
+.simulator>.box>h3{
+    margin-left: 30px;
+}
+.whole>ul>li:hover{
+    background-color: #eb8109;
+}
+@media screen and (min-width:768px) and (max-width:1026px) {
+  .infrastructure{
+      width: 1250px;
+       background-color: #eb8109;
+  }
+  
+}
+@media screen and (max-width:768px) {
+  .head{
+    margin-left: 50%;
+  }
+  .classroom{
+      display: flex;
+   flex-direction: column; 
+   display: block;   
+  }
+  .classroom>.box{
+      /* margin-top: 200px; */
+      margin-left: 50%;
+  }
+      .infrastructure{
+          width: 1250px;
+           background-color: #eb8109;
+      }
+      .gdroom{
+          display: flex;
+   flex-direction: column; 
+   display: block;     
+      }
+      .gdroom>.box{
+          /* margin-top: 200px;  */
+          margin-left: 50%;
+      }
+      .simulator{
+        display: flex;
+ flex-direction: column; 
+ display: block;     
+    }
+    .simulator>.box{
+        /* margin-top: 200px;  */
+        margin-left: 50%;
+    }
+
+  }

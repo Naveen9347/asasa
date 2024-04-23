@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    margin-left: 140px;
+}
+
+div.infrastructure{
+position: -webkit-sticky;
+position: sticky;
+top: 0;
+background-color: yellow;
+padding: 10px;
+font-size: 20px;
+text-align: center;
+}
+.head>h1,p{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    
+}
+.head>p{
+    font-size: x-large;
+}
+.navbar>ul{
+    display:inline-flex;
+    margin-left: 300px;
+    color:rgb(220, 31, 31);
+    font: bold;
+}
+.navbar button{
+    width: 200px;
+    color: rgb(12, 12, 146);
+    background-color: aliceblue;
+    height: 40px;
+}
+.navbar button{
+    font-weight: bold;
+    margin-left: -40px;
+    border-radius: 5px ;
+}
+ ul li{
+    font-weight: bold; 
+    display: inline-block;
+    
+}
+ul>li:hover{
+    color: #eb8109;
+}
+
+.navbar button:hover {
+    background-color: #eb8109; 
+    color: aliceblue;
+}
+.games>.box{
+    margin-top : 30px;
+    width: 355px;
+    height:300px;
+    border: 2px solid rgb(246, 244, 244);
+    background-color: whitesmoke;
+    margin-left: 40px;
+}
+.games>.box1{
+    width: 350px;
+    height: 200px;
+    background-color: rgb(40, 14, 68);
+}
+.games{
+    display: flex;
+}
+.games .box3{
+    width: 150px;
+    height: 400px;
+    margin-left: -20px;
+}
+.arrow>.box{
+    margin-top : 30px;
+    width: 355px;
+    height:300px;
+    border: 2px solid rgb(246, 244, 244);
+    background-color: whitesmoke;
+    margin-left: 40px;
+}
+.arrow>.box1{
+    width: 350px;
+    height: 200px;
+    background-color: rgb(40, 14, 68);
+}
+.arrow{
+    display: flex;
+}
+.arrow>.box3{
+    margin-top: 120px;
+}
+@media screen and (min-width:768px) and (max-width:1026px) {
+    .infrastructure{
+        width: 1250px;
+         background-color: #eb8109;
+    }
+    
+}
+@media screen and (max-width:768px) {
+    .games{
+        display: flex;
+     flex-direction: column; 
+     display: block;   
+    }
+    .games>.box{
+        margin-top: 200px;
+        margin-left: 50%;
+    }
+        .infrastructure{
+            width: 1250px;
+             background-color: #eb8109;
+        }
+        .arrow{
+            display: flex;
+     flex-direction: column; 
+     display: block;     
+        }
+        .arrow>.box{
+            margin-top: 200px; 
+            margin-left: 50%;
+        }
+        
+
+    }
+
+
